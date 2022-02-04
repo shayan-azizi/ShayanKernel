@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "10LebrUEcRkci7FLqCgY1OxtrqUy4CF6ZPltJEcLdIwcqmRHpvjwdYGktq5Bz0u/oowFTgPwluepwiGSe16QSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\huawei\\source\\repos\\firstKernel\\firstKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\huawei\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20200708061311\\cosmos.build.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20200708061311\\cosmos.common.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20200708061311\\cosmos.core.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20200708061311\\cosmos.debug.kernel.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20200708061311\\cosmos.hal2.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20200708061311\\cosmos.system2.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20200708061311\\il2cpu.api.0.1.0-localbuild20200708061311.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\microsoft.netcore.app\\2.0.9\\microsoft.netcore.app.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.9\\microsoft.netcore.dotnetapphost.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.9\\microsoft.netcore.dotnethostpolicy.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.9\\microsoft.netcore.dotnethostresolver.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.2\\microsoft.netcore.platforms.2.0.2.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\runtime.win-x86.microsoft.netcore.app\\2.0.9\\runtime.win-x86.microsoft.netcore.app.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\runtime.win-x86.microsoft.netcore.dotnetapphost\\2.0.9\\runtime.win-x86.microsoft.netcore.dotnetapphost.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\runtime.win-x86.microsoft.netcore.dotnethostpolicy\\2.0.9\\runtime.win-x86.microsoft.netcore.dotnethostpolicy.2.0.9.nupkg.sha512",
+    "C:\\Users\\huawei\\.nuget\\packages\\runtime.win-x86.microsoft.netcore.dotnethostresolver\\2.0.9\\runtime.win-x86.microsoft.netcore.dotnethostresolver.2.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

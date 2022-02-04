@@ -1,0 +1,9 @@
+C:\Users\huawei\source\repos\firstKernel\bin\Debug\netcoreapp2.0\cosmos\firstKernel.deps.json
+C:\Users\huawei\source\repos\firstKernel\bin\Debug\netcoreapp2.0\cosmos\firstKernel.dll
+C:\Users\huawei\source\repos\firstKernel\bin\Debug\netcoreapp2.0\cosmos\firstKernel.pdb
+C:\Users\huawei\source\repos\firstKernel\obj\Debug\netcoreapp2.0\cosmos\firstKernel.csprojAssemblyReference.cache
+C:\Users\huawei\source\repos\firstKernel\obj\Debug\netcoreapp2.0\cosmos\firstKernel.AssemblyInfoInputs.cache
+C:\Users\huawei\source\repos\firstKernel\obj\Debug\netcoreapp2.0\cosmos\firstKernel.AssemblyInfo.cs
+C:\Users\huawei\source\repos\firstKernel\obj\Debug\netcoreapp2.0\cosmos\firstKernel.csproj.CoreCompileInputs.cache
+C:\Users\huawei\source\repos\firstKernel\obj\Debug\netcoreapp2.0\cosmos\firstKernel.dll
+C:\Users\huawei\source\repos\firstKernel\obj\Debug\netcoreapp2.0\cosmos\firstKernel.pdb
