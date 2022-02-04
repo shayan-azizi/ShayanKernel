@@ -6,62 +6,66 @@ using Sys = Cosmos.System;
 
 namespace firstKernel.Commands
 {
-    public class File : Command
+    public class Dir : Command
     {
+        public Dir (string name) : base (name) { }
 
-        public File (String name) : base (name) { }
-
-        public override string execute (string[] args)
+        public override string execute (string [] args)
         {
-
-            // file create bruh.py
+            // dir create bruh
 
             string response = "";
+
             switch (args[0])
             {
-
                 case "create":
 
                     try
                     {
-                        Sys.FileSystem.VFS.VFSManager.CreateFile(args[1]);
-                        response = "Your file " + args[1] + " was successfully created.";
+
+                        Sys.FileSystem.VFS.VFSManager.CreateDirectory(args[1]);
+                        response = "Your directory " + args[1] + " was successfully created.";
+
+
                     }
                     catch (Exception ex)
                     {
+
                         response = ex.ToString();
                         break;
                     }
 
-                    break;
+                break;
+
 
                 case "remove":
 
                     try
                     {
-                        Sys.FileSystem.VFS.VFSManager.DeleteFile(args[1]);
-                        response = "Your file " + args[1] + " was successfully removed.";
+
+                        Sys.FileSystem.VFS.VFSManager.DeleteDirectory(args[1], true);
+                        response = "Your directory " + args[1] + " was successfully remove.";
+
+
                     }
                     catch (Exception ex)
                     {
+
                         response = ex.ToString();
                         break;
                     }
-
 
                     break;
 
                 default:
 
-                    response = "Unexpected argument: " + args[0];
+                    response = "Unexpected argument: "+ args[0];
 
                     break;
 
             }
 
             return response;
-
         }
-
     }
 }
