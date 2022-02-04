@@ -9,9 +9,11 @@ namespace firstKernel
     {
         protected override void BeforeRun()
         {
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("ShayanOS booted successfully.");
             Console.ForegroundColor = ConsoleColor.Green;
+
         }
 
         protected override void Run()
@@ -25,7 +27,6 @@ namespace firstKernel
         {
 
             char[] inputArray = input.ToCharArray();
-
 
 
 
@@ -71,7 +72,11 @@ namespace firstKernel
 
             if (input == "clear")
             {
-                Console.Clear();    
+                Console.Clear();
+            }
+            if (input == "cls")
+            {
+                Console.Clear();
             }
 
             if (input == "shutdown")
@@ -106,10 +111,14 @@ namespace firstKernel
             if (input == "info")
             {
                 Console.ForegroundColor = ConsoleColor.White;
-                
+                Console.WriteLine("Bruh you are too sumb because you don't know your system config!!");
                 Console.ForegroundColor = ConsoleColor.Green;
 
             }
+
+
+
         }
+
     }
 }
