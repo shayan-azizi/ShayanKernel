@@ -11,10 +11,10 @@ namespace firstKernel.Commands
         public Dir (string name) : base (name) { }
 
         public override string execute (string [] args)
-        {
+        {   
             // dir create bruh
 
-            string response = "";
+            string response = "Commands able in file: \n dir create: make directory in the adress \n dir remove: delete directory in the adress ";
 
             switch (args[0])
             {
@@ -41,7 +41,7 @@ namespace firstKernel.Commands
                 case "remove":
 
                     try
-                    {
+                    {   
 
                         Sys.FileSystem.VFS.VFSManager.DeleteDirectory(args[1], true);
                         response = "Your directory " + args[1] + " was successfully remove.";
