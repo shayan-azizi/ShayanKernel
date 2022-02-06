@@ -14,7 +14,7 @@ namespace firstKernel.Commands
         {   
             // dir create bruh
 
-            string response = "Commands able in file: \n dir create: make directory in the adress \n dir remove: delete directory in the adress ";
+            string response = "Commands able in file: \n dir create: make directory in the adress \n dir remove: delete directory in the adress \n ";
 
             switch (args[0])
             {
@@ -24,7 +24,7 @@ namespace firstKernel.Commands
                     {
 
                         Sys.FileSystem.VFS.VFSManager.CreateDirectory(args[1]);
-                        response = "Your directory " + args[1] + " was successfully created.";
+                        response = "Your directory " + args[1] + " was successfully created. \n";
 
 
                     }
@@ -44,7 +44,7 @@ namespace firstKernel.Commands
                     {   
 
                         Sys.FileSystem.VFS.VFSManager.DeleteDirectory(args[1], true);
-                        response = "Your directory " + args[1] + " was successfully remove.";
+                        response = "Your directory " + args[1] + " was successfully remove. \n";
 
 
                     }
@@ -59,13 +59,13 @@ namespace firstKernel.Commands
 
                 case "":
 
-                    response = "Commands able in file: \n dir create: make directory in the adress \n dir remove: delete directory in the adress";
+                    response = "Commands able in file: \n dir create: make directory in the adress \n dir remove: delete directory in the adress \n";
 
                     break;
 
                 default:
 
-                    response = "Unexpected argument: "+ args[0];
+                    response = "Unexpected argument: "+ args[0] + "\n";
 
                     break;
 

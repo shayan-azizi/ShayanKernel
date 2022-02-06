@@ -18,13 +18,13 @@ namespace firstKernel.Commands
             {
                 case "--commands":
 
-                    response = "Commands list: \n    help: About this kernel and help you to work with that \n    echo: Print the argument \n    clear: Clear the screen \n    file: Manage files \n    dir: Manage direcotories";
+                    response = "Commands list: \n    help: About this kernel and help you to work with that \n    echo: Print the argument \n    clear: Clear the screen \n    file: Manage files \n    dir: Manage direcotories \n";
 
                     break;
 
                 case "--about":
 
-                    response = "About ShayanOS: \n Version: v1.2.4 \n Author: Shayan Azizi \n Copyright: MIT License 2022 Shayan Azizi";
+                    response = "About ShayanOS: \n Version: v1.2.4 \n Author: Shayan Azizi \n Copyright: MIT License 2022 Shayan Azizi \n";
 
                     break;
             }

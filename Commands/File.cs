@@ -17,7 +17,7 @@ namespace firstKernel.Commands
 
             // file create bruh.py
 
-            string response = "Commands able in file: \n file create: make file in the adress \n file remove: delete file in the adress \n file write: write string in to the file in the adress \n file read: read the contents of the file ";
+            string response = "Commands able in file: \n file create: make file in the adress \n file remove: delete file in the adress \n file write: write string in to the file in the adress \n file read: read the contents of the file \n";
             switch (args[0])
             {
 
@@ -26,7 +26,7 @@ namespace firstKernel.Commands
                     try
                     {
                         Sys.FileSystem.VFS.VFSManager.CreateFile(args[1]);
-                        response = "Your file " + args[1] + " was successfully created.";
+                        response = "Your file " + args[1] + " was successfully created. \n";
                     }
                     catch (Exception ex)
                     {
@@ -41,7 +41,7 @@ namespace firstKernel.Commands
                     try
                     {
                         Sys.FileSystem.VFS.VFSManager.DeleteFile(args[1]);
-                        response = "Your file " + args[1] + " was successfully removed.";
+                        response = "Your file " + args[1] + " was successfully removed. \n";
                     }
                     catch (Exception ex)
                     {
@@ -78,13 +78,13 @@ namespace firstKernel.Commands
                             fs.Write(data, 0, data.Length);
                             fs.Close();
 
-                            response = "Successfully wrote to file";
+                            response = "Successfully wrote to file \n";
 
                         }
                         else
                         {
 
-                            response = "Unable to write to file! Not open for writing.";
+                            response = "Unable to write to file! Not open for writing. \n";
                             break;      
 
                         }
@@ -120,7 +120,7 @@ namespace firstKernel.Commands
 
                         else
                         {
-                            response = "Unable to read from file! Not open for reading";
+                            response = "Unable to read from file! Not open for reading \n";
                             break;
                         }
 
@@ -136,12 +136,12 @@ namespace firstKernel.Commands
 
                 case "":
 
-                    response = "Commands able in file: \n file create: make file in the adress \n file remove: delete file in the adress \n file write: write string in to the file in the adress \n file read: read the contents of the file ";    
+                    response = "Commands able in file: \n file create: make file in the adress \n file remove: delete file in the adress \n file write: write string in to the file in the adress \n file read: read the contents of the file \n";    
 
                     break;
 
                 default:
-                    response = "Unexpected argument: " + args[0];
+                    response = "Unexpected argument: " + args[0] + "\n";
 
                     break;
 

@@ -19,8 +19,8 @@ namespace firstKernel
             this.commandManager = new CommandManager();
             Sys.FileSystem.VFS.VFSManager.RegisterVFS(this.vfs);
 
-            //Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("   ShayanOS booted successfully.");
             Console.ForegroundColor = ConsoleColor.Green;
 
