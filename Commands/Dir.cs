@@ -57,6 +57,12 @@ namespace firstKernel.Commands
 
                     break;
 
+                case "":
+
+                    response = "Commands able in file: \n dir create: make directory in the adress \n dir remove: delete directory in the adress";
+
+                    break;
+
                 default:
 
                     response = "Unexpected argument: "+ args[0];

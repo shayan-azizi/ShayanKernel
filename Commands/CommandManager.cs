@@ -15,6 +15,7 @@ namespace firstKernel.Commands
             this.commands.Add(new Help("help"));
             this.commands.Add(new File("file"));
             this.commands.Add(new Dir("dir"));
+            this.commands.Add(new Clear("clear"));
 
 
         }

@@ -134,6 +134,12 @@ namespace firstKernel.Commands
 
                     break;
 
+                case "":
+
+                    response = "Commands able in file: \n file create: make file in the adress \n file remove: delete file in the adress \n file write: write string in to the file in the adress \n file read: read the contents of the file ";    
+
+                    break;
+
                 default:
                     response = "Unexpected argument: " + args[0];
 

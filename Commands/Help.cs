@@ -11,7 +11,25 @@ namespace firstKernel.Commands
 
         public override string execute(string[] args)
         {
-            return "Welcome to ShayanOS Help command.The ShayanOS current version is alfa-1.2.0. For more information on a specific command, type help --commands";
+            string response = "";
+
+
+            switch (args[0])
+            {
+                case "--commands":
+
+                    response = "Commands list: \n    help: About this kernel and help you to work with that \n    echo: Print the argument \n    clear: Clear the screen \n    file: Manage files \n    dir: Manage direcotories";
+
+                    break;
+
+                case "--about":
+
+                    response = "About ShayanOS: \n Version: v1.2.4 \n Author: Shayan Azizi \n Copyright: MIT License 2022 Shayan Azizi";
+
+                    break;
+            }
+
+            return response;
 
         }
 
